@@ -1,0 +1,19 @@
+.like-dislike-widget-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.likes-wrapper, .dislikes-wrapper{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.likes-wrapper .counts, .dislikes-wrapper .counts{
+    font-size: 1rem;
+}
